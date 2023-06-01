@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+    
+    .icon-cal{
+        background-color: transparent;
+        border-bottom: 1px solid #f0efef;
+    }
+    .testimonials-title{
+        margin: 0 5%;
+    }
+    .promotion-video,.testimonials, .booking{
+        background-image: url(../images/slide1.jpg);
+        background-size: cover;
+    }
+    .form-booking{
+        margin-left: 0;
+     }
+     .check-text{
+        margin-bottom: 30px;
+     }
+}
+@media (max-width: 1200px) {
+    .navbar-collapse{
+        background-color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+    .nav-link.main{
+        color: #ab854f;
+    }
+    .nav-link{
+        color: #000;
+    }
+    
+}
+@media (min-width: 1200px) {
+    .navbar-collapse{
+        margin-right: 8%;
+       
+    }
+    
+}
