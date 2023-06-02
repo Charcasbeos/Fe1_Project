@@ -500,7 +500,7 @@ i{
     border-radius: 50%;
     top: 10%;
     left: 10%;
-    transform: translate(0,-50);
+    transform: translate(0,-50%);
     background-color: #fff;
 }
 .fa-play{
@@ -508,7 +508,7 @@ i{
     color: #e4a853;
     top: 35%;
     left: 40%;
-    transform: translate(0,-50);
+    transform: translate(0,-50%);
 }
 
 .circle-video-out:hover .circle-video-in{
@@ -644,14 +644,14 @@ i{
     z-index: 100;
     position: absolute;
     background-color: #fff;
-    width: 80%px;
+    width: 80%;
     padding: 20px;
     margin: -50px 40px 90px 30px;
 }
 .hotel-blog-img:hover .tag-desc{
     position: absolute;
     background-color: #fff;
-    width: 80%px;
+    width: 80%;
     padding: 20px;
     margin: -155px 30px 90px ;
 }
