@@ -500,7 +500,6 @@ i{
     border-radius: 50%;
     top: 10%;
     left: 10%;
-    transform: translate(0,-50%);
     background-color: #fff;
 }
 .fa-play{
@@ -508,7 +507,6 @@ i{
     color: #e4a853;
     top: 35%;
     left: 40%;
-    transform: translate(0,-50%);
 }
 
 .circle-video-out:hover .circle-video-in{
@@ -830,3 +828,25 @@ i{
     color: #adadad;
 }
 
+/* Sticky button */
+.sticky-button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #adadad;
+   
+}
+.sticky-button p {
+    font-size: 30px;
+    font-weight: 100;
+    color: #e4a853;
+    font-family: 'Barlow', sans-serif;
+    
+}
